@@ -63,5 +63,4 @@ The main goal of this repository is to:
 
 ---
 
-## 🚀 How to Use
-1. Clone this repository:
+
