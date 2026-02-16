@@ -19,3 +19,14 @@
 #     print()
 
 
+# #NOTE: THE THE TAB DISTANCE IS NOT IMPORTANT , ALL ATATEMENT OF THE CONDITION SHALL BE IN SAME LINE
+# sen = 0
+
+# if sen == 0:
+#   print('sensor is OFF')
+#   print('Switch Motor OFF')
+# else:
+#         print('sensor is ON')
+#         print('Switch Motor ON')
+    
+# print('Done')
