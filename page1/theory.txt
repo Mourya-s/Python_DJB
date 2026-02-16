@@ -1,0 +1,81 @@
+Title: Python
+
+1. Introduction:
+•	Python is a high-level, object-oriented programming language.
+•	It is simple, readable, and widely used for web development, data science, automation, AI, etc.
+•	Developed by Guido Van Rossum
+2. Features of Python:
+•	Simple and easy-to-read syntax
+•	High-level language (no need to manage memory manually)
+•	Object-Oriented (supports classes and objects)
+•	Interpreted language (executes line by line)
+•	Dynamically typed (no need to declare data types)
+•	Large standard library (many built-in modules available)
+3.Variables:
+	These are the names given to the memory location, which will be pointing to the memory location
+	     a=15
+			a
+		      VARIABLE	                        OBJECT REFERENCE
+ Note: for constant in python write all in caps, like PI=3.14
+4.Data-types
+This decides what kind of data will be stored in the variable and wht kind pf operation is possible on the value.
+Ex:- int,float,bool,chr,tuple,list etc
+Type casting:
+Implicit: happens automatically by interpreter
+Explicit: needs manual assistance
+Bool int float complex string
+5.list
+	Ordered mutable collection
+•	List.append() – Adds a single element to the end of the list.
+•	List.insert() – Inserts an element at a specified index in the list.
+•	List.extend() – Adds multiple elements (from another iterable) to the end of the list.
+•	List.remove() – Removes the first occurrence of a specified element from the list.
+•	List.pop() – Removes and returns the element at a specified index (default is the last element).
+•	List.clear() – Removes all elements from the list.
+•	List.index() – Returns the index of the first occurrence of a specified element.
+•	List.count() – Returns the number of times a specified element appears in the list.
+•	List.sort() – Sorts the list in ascending or descending order.
+•	List.reverse() – Reverses the order of elements in the list.
+•	List.copy() – Returns a shallow copy of the list.
+
+List_Compremsion==[expression for loop  condition] a smaller way of defining a list
+6.Dictionary:
+ 	Ordered mutable key value pair
+•	dict.get() – Returns the value of a specified key without raising an error if the key is not found.
+•	dict.keys() – Returns a view of all keys in the dictionary.
+•	dict.values() – Returns a view of all values in the dictionary.
+•	dict.items() – Returns a view of key–value pairs as tuples.
+•	dict.update() – Adds or updates key–value pairs from another dictionary or iterable.
+•	dict.pop() – Removes and returns the value of a specified key.
+•	dict.popitem() – Removes and returns the last inserted key–value pair.
+•	dict.clear() – Removes all elements from the dictionary.
+•	dict.copy() – Returns a shallow copy of the dictionary.
+•	dict.setdefault() – Returns the value of a key; if the key does not exist, inserts it with a default value.
+•	dict.fromkeys() – Creates a new dictionary with specified keys and a common default value.
+7.tuple:
+	Ordered immutable collection
+•	tuple.count() – Returns the number of times a specified element appears in the tuple.
+•	tuple.index() – Returns the index of the first occurrence of a specified element.
+8.set:
+	Unordered mutable collection NO duplicates
+•	set.add() – Adds a single element to the set.
+•	set.update() – Adds multiple elements from another iterable to the set.
+•	set.remove() – Removes a specified element and raises an error if the element is not found.
+•	set.discard() – Removes a specified element without raising an error if the element is not found.
+•	set.pop() – Removes and returns a random element from the set.
+•	set.clear() – Removes all elements from the set.
+•	set.copy() – Returns a shallow copy of the set.
+Set mathematical operations:
+•	set.union() – Returns a new set containing elements from both sets.
+•	set.intersection() – Returns a new set with common elements between sets.
+•	set.difference() – Returns elements present in one set but not in another.
+•	set.symmetric_difference() – Returns elements present in either set but not in both.
+•	set.issubset() – Checks whether one set is a subset of another.
+•	set.issuperset() – Checks whether one set is a superset of another.
+•	set.isdisjoint() – Checks whether two sets have no common elements.
+
+
+
+	
+
+
